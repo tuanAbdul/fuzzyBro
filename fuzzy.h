@@ -7,9 +7,9 @@
 
 class fuzzy{
   public:
-	  int cc;
-    float x,a,b,c,d,yy,_y2;
-	  int MF;
+	int cc;
+    	float x,a,b,c,d,yy,_y2;
+	int MF;
 
     float calc(){
       switch(MF){
@@ -24,11 +24,8 @@ class fuzzy{
           break;
       }
     }
-	fuzzy(){
-		cc++;
-	}
-	//fungsi keanggotaan input bentuk segitiga/triangle
 
+    //fungsi keanggotaan input bentuk segitiga/triangle
     float TriMFI(float x,float a,float b,float c){
       //return TrapMFO(x,a,b,c,d,1);
       return TrapMFO(x,a,b,b,c,1);
