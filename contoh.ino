@@ -3,10 +3,7 @@
 float y,y2;
 float sp1,sp2;
 
-fuzzy pmt[2];
-fuzzy psd[2];
-fuzzy prod[2];
-fuzzy rule[4];
+fuzzy pmt[2],psd[2],prod[2],rule[4];
 
 mmdn defuz;
 void setup() {
