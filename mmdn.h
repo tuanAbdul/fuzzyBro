@@ -30,7 +30,6 @@ class mmdn{
   float getD(fuzzy mf[],int n){
     int i;
     float y;
-    
     for(i=0;i<n;i++){
       y=mf[0].d;
       if(y<mf[i].d){
@@ -40,6 +39,4 @@ class mmdn{
     return y;
   }
 };
-
-
 #endif
