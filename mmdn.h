@@ -14,7 +14,7 @@ class mmdn{
     int i,x=0;
     y=MF[0]._y2;
     MF[0].calc();
-    for(x=0;x<1000;x++){
+    for(x=0;x<D;x++){
       for(i=0;i<n;i++){
         MF[i].x=x;
         MF[i].calc();
