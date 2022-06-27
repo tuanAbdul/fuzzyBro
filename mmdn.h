@@ -5,16 +5,17 @@
 class mmdn{
   public:
   int x,D;
+  int res=1;
   float y,y1,y2,y3,xy;
   
-  float deFuz(fuzzy MF[],int n){
+  float MoM(fuzzy MF[],int n){
     y1=0;
     y2=0;
     D=getD(MF,n);
     int i,x=0;
     y=MF[0]._y2;
     MF[0].calc();
-    for(x=0;x<D;x++){
+    for(x=0;x<D;x+=res){
       for(i=0;i<n;i++){
         MF[i].x=x;
         MF[i].calc();
