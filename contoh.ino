@@ -48,6 +48,9 @@ void setup() {
   prod[1].b=7000;
   prod[1].c=7000;
   prod[1].d=7000;
+  
+  //setup resolusi integrasi
+  defuz.res=100;
 
 }
 
@@ -76,7 +79,7 @@ void loop() {
   rule[3].yy=min(pmt[1].calc(),psd[0].calc());
   
   
-  y=defuz.deFuz(rule,sizeof(rule)/sizeof(rule[0]));
+  y=defuz.MoM(rule,sizeof(rule)/sizeof(rule[0]));
   Serial.println("=========");
   Serial.print("y1=");
   Serial.println(y);
