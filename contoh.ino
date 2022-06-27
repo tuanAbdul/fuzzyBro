@@ -49,7 +49,7 @@ void setup() {
   prod[1].c=7000;
   prod[1].d=7000;
   
-  //setup resolusi integrasi
+  //setup resolusi integral diskrit
   defuz.res=100;
 
 }
