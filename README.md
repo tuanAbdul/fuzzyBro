@@ -2,7 +2,7 @@
 library fungsi keanggotaan fuzzy
 # fuzzyBro
 program example.ino mengacu pada contoh soal buku karangan Sri Kusuma Dewi. hasil dari perhitungan mikrokontroller dengan perhitungan buku sangat mendekati.
-.kekurangan dari mikrokontroller (pada umumnya) dibandingkan prosesor x86 dan SoC adalah kekuatan komputasi yang lebih lambat, untuk itu disarankan pengunaan fungsi keanggotaan output maksimal menggunakan angka 3 digit atau kurang agar iterasi tidak terlalu panjang yang mengakibatkan perlambatan komputasi.
+.kekurangan dari mikrokontroller (pada umumnya) dibandingkan prosesor x86 dan SoC adalah kekuatan komputasi yang lebih lambat, untuk itu disarankan pengunaan fungsi keanggotaan output maksimal menggunakan angka 3 digit atau kurang agar iterasi tidak terlalu panjang yang mengakibatkan perlambatan komputasi atau dengan menaikkan resolusi integral yaitu dengan perintah Object.res=x.
 sp1 dan sp2 adalah masukan, nama variable tersebut bisa diganti apa saja, bisa dari sensor atau dari pin ADC dari arduino.
 
 mode operator bisa diganti dengan operator OR (Maks) pada contoh menggunakan operator AND (Min)
