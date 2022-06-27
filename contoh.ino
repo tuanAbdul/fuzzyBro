@@ -10,26 +10,28 @@ void setup() {
   Serial.begin(9600);
   //setup fungsi keanggotaan input
 
-  //permintaan
+  //permintaan turun
   pmt[0].MF=TrapesiumI;
   pmt[0].a=0;
   pmt[0].b=0;
   pmt[0].c=1000;
   pmt[0].d=5000;
 
+  //permintaan naik
   pmt[1].MF=TrapesiumI;
   pmt[1].a=1000;
   pmt[1].b=5000;
   pmt[1].c=5000;
   pmt[1].d=5000;
   
-  //persediaan
+  //persediaan sedikit
   psd[0].MF=TrapesiumI;
   psd[0].a=0;
   psd[0].b=0;
   psd[0].c=100;
   psd[0].d=600;
 
+  //persediaan banyak
   psd[1].MF=TrapesiumI;
   psd[1].a=100;
   psd[1].b=600;
